@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e;
+    color: #eaeaea;
+    font-family: 'Inter', sans-serif;
+}
+
+.weather-app {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #2c2c2c;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.weather-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background: #333;
+    color: #eaeaea;
+    outline: none;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.search-input::placeholder {
+    color: #aaa;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+.search-button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search-button:hover {
+    background: #0056b3;
+}
+
+.temperature-toggle span {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #333;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.temperature-toggle span:hover {
+    background: #007bff;
+    color: white;
+}
+
+.weather-main {
+    text-align: center;
+}
+
+.city-name {
+    font-size: 24px;
+    margin: 0;
+    color: #007bff;
+}
+
+.date-time {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.weather-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.weather-icon {
+    width: 70px;
+}
+
+.temperature-info {
+    text-align: left;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    color: #007bff;
+}
+
+.weather-status {
+    font-size: 16px;
+    color: #eaeaea;
+}
+
+.temperature-range p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.weather-details {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+
+.detail-item:first-child {
+    border-top: none;
+}
