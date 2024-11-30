@@ -8,7 +8,6 @@ const weatherImage = document.querySelector(".weather-icon")
 async function weather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`)
     const weather = await response.json()
-    console.log(weather)
 
     const date = new Date(weather.dt * 1000);
     const sunrise = new Date(weather.sys.sunrise * 1000)
