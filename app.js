@@ -62,7 +62,7 @@ document.getElementById("en-button").addEventListener("click", () => {
     document.getElementById("sunrise").innerHTML = "Sunrise:";
     document.getElementById("sunset").innerHTML = "Sunset:";
     document.getElementById("humidity").innerHTML = "Humidity:";
-    document.getElementById("date-time").innerHTML = "Date and Time:";
-    document.getElementById("city").innerHTML = "City:"
+    document.getElementById("date-time").innerHTML = "Date and Time";
+    document.getElementById("city").innerHTML = "City"
 })
 
