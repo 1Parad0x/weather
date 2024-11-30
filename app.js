@@ -45,3 +45,25 @@ searchButton.addEventListener("click", () => {
     searchInput.value = "";
 });
 
+document.getElementById("ru-button").addEventListener("click", () => {
+    document.getElementById("min").innerHTML = "Минимум:";
+    document.getElementById("max").innerHTML = "Максимум:";
+    document.getElementById("wind").innerHTML = "Скорость ветра:";
+    document.getElementById("sunrise").innerHTML = "Рассвет в:";
+    document.getElementById("sunset").innerHTML = "Закат в:";
+    document.getElementById("humidity").innerHTML = "Влажность:";
+    document.getElementById("date-time").innerHTML = "Дата и время";
+    document.getElementById("city").innerHTML = "Город:"
+})
+
+document.getElementById("en-button").addEventListener("click", () => {
+    document.getElementById("min").innerHTML = "Min:";
+    document.getElementById("max").innerHTML = "Max:";
+    document.getElementById("wind").innerHTML = "Wind:";
+    document.getElementById("sunrise").innerHTML = "Sunrise:";
+    document.getElementById("sunset").innerHTML = "Sunset:";
+    document.getElementById("humidity").innerHTML = "Humidity:";
+    document.getElementById("date-time").innerHTML = "Date and Time:";
+    document.getElementById("city").innerHTML = "City:"
+})
+

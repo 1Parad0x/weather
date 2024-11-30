@@ -13,11 +13,13 @@
         <button class="search-button">
             <span class="span">🔎</span>
         </button>
+        <button class="lang-button" id="en-button">EN</button>
+        <button class="lang-button" id="ru-button">RU</button>
     </header>
 
     <main class="weather-main">
-        <h1 class="city-name">City</h1>
-        <p class="date-time">Date and Time</p>
+        <h1 class="city-name" id="city">City</h1>
+        <p class="date-time" id="date-time">Date and Time</p>
         <div class="weather-summary">
             <img alt="Weather Icon" class="weather-icon" src="icons/sun.png">
             <div class="temperature-info">
@@ -25,12 +27,12 @@
             </div>
         </div>
         <div class="temperature-range">
-            <p><strong>Min:</strong> <span class="temperature-min-info">0°</span></p>
-            <p><strong>Max:</strong> <span class="temperature-max-info">0°</span></p>
-            <p><strong>Wind:</strong> <span class="wind-detail">0 km/h</span></p>
-            <p><strong>Sunrise:</strong> <span class="sunrice">0</span></p>
-            <p><strong>Sunset:</strong> <span class="sunset">0 </span></p>
-            <p><strong>Humidity:</strong> <span class="humidity">0</span></p>
+            <p><strong id="min">Min:</strong> <span class="temperature-min-info">0°</span></p>
+            <p><strong id="max">Max:</strong> <span class="temperature-max-info">0°</span></p>
+            <p><strong id="wind">Wind:</strong> <span class="wind-detail">0 km/h</span></p>
+            <p><strong id="sunrise">Sunrise:</strong> <span class="sunrice">0</span></p>
+            <p><strong id="sunset">Sunset:</strong> <span class="sunset">0 </span></p>
+            <p><strong id="humidity">Humidity:</strong> <span class="humidity">0</span></p>
         </div>
     </main>
 

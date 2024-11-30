@@ -44,7 +44,7 @@ body {
     border-color: #007bff;
 }
 
-.search-button {
+.search-button, .lang-button {
     background: #007bff;
     border: none;
     color: white;
