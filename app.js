@@ -53,6 +53,7 @@ document.getElementById("ru-button").addEventListener("click", () => {
     document.getElementById("humidity").innerHTML = "Влажность:";
     document.getElementById("date-time").innerHTML = "Дата и время";
     document.getElementById("city").innerHTML = "Город:"
+    search.placeholder = "Напишите город..."
 })
 
 document.getElementById("en-button").addEventListener("click", () => {
@@ -64,5 +65,6 @@ document.getElementById("en-button").addEventListener("click", () => {
     document.getElementById("humidity").innerHTML = "Humidity:";
     document.getElementById("date-time").innerHTML = "Date and Time";
     document.getElementById("city").innerHTML = "City"
+    search.placeholder = "Search for a city..."
 })
 
